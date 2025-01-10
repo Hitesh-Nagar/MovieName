@@ -2,7 +2,7 @@ import { View, Text, ScrollView, TouchableOpacity, Image, Dimensions } from 'rea
 import React from 'react'
 import { fallbackPersonImage, image185, image342 } from '../api/moviedb';
 var { width, height } = Dimensions.get('window');
-
+console.log("hello")
 export default function Cast({ cast, navigation }) {
     return (
         <View className="my-6">
